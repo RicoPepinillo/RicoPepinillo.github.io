@@ -1,0 +1,831 @@
+.leftBoxMenu {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 400px;
+    height: 1000px;
+    background-color: #301818;
+    border: 4px solid #251313;
+    padding: 10px;
+}
+
+.topBoxMenu {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 2000px;
+    height: 100px;
+    background-color: #1a0e0e;
+    border: 4px solid #442323;
+    padding: 10px;
+}
+
+.bottomBoxMenu {
+    position: fixed;
+    top: 900px;
+    left: 0px;
+    width: 2000px;
+    height: 50px;
+    background-color: #1b0e0e;
+    border: 4px solid #442323;
+    padding: 10px;
+}
+
+.websiteLogo {
+    position: fixed;
+    top: -5px;
+    left: 850px;
+    width: 600px;
+    height: 250px;
+    padding: 10px;
+    z-index: 2;
+}
+
+.clickerIcon {
+    position: fixed;
+    top: 300px;
+    left: 650px;
+    width: 1000px;
+    height: 500px;
+    padding: 10px;
+    z-index: 2;
+}
+
+.clickerBackground {
+    position: fixed;
+    top: 250px;
+    left: 920px;
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    opacity: 0.1;
+    z-index: 1;
+    transition: transform 0.5s;
+}
+
+.spiceHeader {
+    position: fixed;
+    top: 50px;
+    left: 140px;
+    width: 500px;
+    height: 20px;
+    z-index: 3;
+    color:#b36969;
+    text-align: left;
+    vertical-align: bottom;
+    letter-spacing: 5px;
+    font-family: "Papyrus";
+}
+
+.signing {
+    position: fixed;
+    top: 930px;
+    left: 1650px;
+    width: 500px;
+    height: 20px;
+    z-index: 3;
+    color:#b36969;
+    text-align: left;
+    vertical-align: bottom;
+    letter-spacing: 5px;
+    font-family: "Papyrus";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.saltButton {
+    position: fixed;
+    top: 150px;
+    left: 20px;
+    width: 300px;
+    height: 20px;
+    background-color: rgb(122, 119, 91);
+    border: 4px solid rgb(111, 128, 27);
+    padding: 10px;
+    z-index: 3;
+    color:#442323;
+    text-align: left;
+    vertical-align: bottom;
+    text-decoration-line: overline underline;
+    text-decoration-color: #442323;
+    letter-spacing: 5px;
+    font-family: "Papyrus";
+}
+
+.pepperButton {
+    position: fixed;
+    top: 200px;
+    left: 20px;
+    width: 300px;
+    height: 20px;
+    background-color: rgb(122, 119, 91);
+    border: 4px solid rgb(111, 128, 27);
+    padding: 10px;
+    z-index: 3;
+    color:#442323;
+    text-align: left;
+    vertical-align: bottom;
+    text-decoration-line: overline underline;
+    text-decoration-color: #442323;
+    letter-spacing: 5px;
+    font-family: "Papyrus";
+}
+
+.cilantroButton {
+    position: fixed;
+    top: 250px;
+    left: 20px;
+    width: 300px;
+    height: 20px;
+    background-color: rgb(122, 119, 91);
+    border: 4px solid rgb(111, 128, 27);
+    padding: 10px;
+    z-index: 3;
+    color:#442323;
+    text-align: left;
+    vertical-align: bottom;
+    text-decoration-line: overline underline;
+    text-decoration-color: #442323;
+    letter-spacing: 5px;
+    font-family: "Papyrus";
+}
+
+.oreganoButton {
+    position: fixed;
+    top: 300px;
+    left: 20px;
+    width: 300px;
+    height: 20px;
+    background-color: rgb(122, 119, 91);
+    border: 4px solid rgb(111, 128, 27);
+    padding: 10px;
+    z-index: 3;
+    color:#442323;
+    text-align: left;
+    vertical-align: bottom;
+    text-decoration-line: overline underline;
+    text-decoration-color: #442323;
+    letter-spacing: 5px;
+    font-family: "Papyrus";
+}
+
+.peprikaButton {
+    position: fixed;
+    top: 350px;
+    left: 20px;
+    width: 300px;
+    height: 20px;
+    background-color: rgb(122, 119, 91);
+    border: 4px solid rgb(111, 128, 27);
+    padding: 10px;
+    z-index: 3;
+    color:#442323;
+    text-align: left;
+    vertical-align: bottom;
+    text-decoration-line: overline underline;
+    text-decoration-color: #442323;
+    letter-spacing: 5px;
+    font-family: "Papyrus";
+}
+
+.garlicPowderButton {
+    position: fixed;
+    top: 400px;
+    left: 20px;
+    width: 300px;
+    height: 20px;
+    background-color: rgb(122, 119, 91);
+    border: 4px solid rgb(111, 128, 27);
+    padding: 10px;
+    z-index: 3;
+    color:#442323;
+    text-align: left;
+    vertical-align: bottom;
+    text-decoration-line: overline underline;
+    text-decoration-color: #442323;
+    letter-spacing: 5px;
+    font-family: "Papyrus";
+}
+
+.onionPowderButton {
+    position: fixed;
+    top: 450px;
+    left: 20px;
+    width: 300px;
+    height: 20px;
+    background-color: rgb(122, 119, 91);
+    border: 4px solid rgb(111, 128, 27);
+    padding: 10px;
+    z-index: 3;
+    color:#442323;
+    text-align: left;
+    vertical-align: bottom;
+    text-decoration-line: overline underline;
+    text-decoration-color: #442323;
+    letter-spacing: 5px;
+    font-family: "Papyrus";
+}
+
+.cuminButton {
+    position: fixed;
+    top: 500px;
+    left: 20px;
+    width: 300px;
+    height: 20px;
+    background-color: rgb(122, 119, 91);
+    border: 4px solid rgb(111, 128, 27);
+    padding: 10px;
+    z-index: 3;
+    color:#442323;
+    text-align: left;
+    vertical-align: bottom;
+    text-decoration-line: overline underline;
+    text-decoration-color: #442323;
+    letter-spacing: 5px;
+    font-family: "Papyrus";
+}
+
+.cinnamonButton {
+    position: fixed;
+    top: 550px;
+    left: 20px;
+    width: 300px;
+    height: 20px;
+    background-color: rgb(122, 119, 91);
+    border: 4px solid rgb(111, 128, 27);
+    padding: 10px;
+    z-index: 3;
+    color:#442323;
+    text-align: left;
+    vertical-align: bottom;
+    text-decoration-line: overline underline;
+    text-decoration-color: #442323;
+    letter-spacing: 5px;
+    font-family: "Papyrus";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.saltIcon {
+    position: fixed;
+    top: 150px;
+    left: 360px;
+    width: 30px;
+    height: 20px;
+    background-color: rgb(122, 119, 91);
+    border: 4px solid rgb(111, 128, 27);
+    padding: 10px;
+    z-index: 3;
+    color:#442323;
+    text-align: center;
+    vertical-align: bottom;
+    text-decoration-line: overline underline;
+    text-decoration-color: #442323;
+    letter-spacing: 5px;
+    font-family: "Papyrus";
+}
+
+.pepperIcon {
+    position: fixed;
+    top: 200px;
+    left: 360px;
+    width: 30px;
+    height: 20px;
+    background-color: rgb(122, 119, 91);
+    border: 4px solid rgb(111, 128, 27);
+    padding: 10px;
+    z-index: 3;
+    color:#442323;
+    text-align: center;
+    vertical-align: bottom;
+    text-decoration-line: overline underline;
+    text-decoration-color: #442323;
+    letter-spacing: 5px;
+    font-family: "Papyrus";
+}
+
+.cilantroIcon {
+    position: fixed;
+    top: 250px;
+    left: 360px;
+    width: 30px;
+    height: 20px;
+    background-color: rgb(122, 119, 91);
+    border: 4px solid rgb(111, 128, 27);
+    padding: 10px;
+    z-index: 3;
+    color:#442323;
+    text-align: center;
+    vertical-align: bottom;
+    text-decoration-line: overline underline;
+    text-decoration-color: #442323;
+    letter-spacing: 5px;
+    font-family: "Papyrus";
+}
+
+.oreganoIcon {
+    position: fixed;
+    top: 300px;
+    left: 360px;
+    width: 30px;
+    height: 20px;
+    background-color: rgb(122, 119, 91);
+    border: 4px solid rgb(111, 128, 27);
+    padding: 10px;
+    z-index: 3;
+    color:#442323;
+    text-align: center;
+    vertical-align: bottom;
+    text-decoration-line: overline underline;
+    text-decoration-color: #442323;
+    letter-spacing: 5px;
+    font-family: "Papyrus";
+}
+
+.peprikaIcon {
+    position: fixed;
+    top: 350px;
+    left: 360px;
+    width: 30px;
+    height: 20px;
+    background-color: rgb(122, 119, 91);
+    border: 4px solid rgb(111, 128, 27);
+    padding: 10px;
+    z-index: 3;
+    color:#442323;
+    text-align: center;
+    vertical-align: bottom;
+    text-decoration-line: overline underline;
+    text-decoration-color: #442323;
+    letter-spacing: 5px;
+    font-family: "Papyrus";
+}
+
+.garlicPowderIcon {
+    position: fixed;
+    top: 400px;
+    left: 360px;
+    width: 30px;
+    height: 20px;
+    background-color: rgb(122, 119, 91);
+    border: 4px solid rgb(111, 128, 27);
+    padding: 10px;
+    z-index: 3;
+    color:#442323;
+    text-align: center;
+    vertical-align: bottom;
+    text-decoration-line: overline underline;
+    text-decoration-color: #442323;
+    letter-spacing: 5px;
+    font-family: "Papyrus";
+}
+
+.onionPowderIcon {
+    position: fixed;
+    top: 450px;
+    left: 360px;
+    width: 30px;
+    height: 20px;
+    background-color: rgb(122, 119, 91);
+    border: 4px solid rgb(111, 128, 27);
+    padding: 10px;
+    z-index: 3;
+    color:#442323;
+    text-align: center;
+    vertical-align: bottom;
+    text-decoration-line: overline underline;
+    text-decoration-color: #442323;
+    letter-spacing: 5px;
+    font-family: "Papyrus";
+}
+
+.cuminIcon {
+    position: fixed;
+    top: 500px;
+    left: 360px;
+    width: 30px;
+    height: 20px;
+    background-color: rgb(122, 119, 91);
+    border: 4px solid rgb(111, 128, 27);
+    padding: 10px;
+    z-index: 3;
+    color:#442323;
+    text-align: center;
+    vertical-align: bottom;
+    text-decoration-line: overline underline;
+    text-decoration-color: #442323;
+    letter-spacing: 5px;
+    font-family: "Papyrus";
+}
+
+.cinnamonIcon {
+    position: fixed;
+    top: 550px;
+    left: 360px;
+    width: 30px;
+    height: 20px;
+    background-color: rgb(122, 119, 91);
+    border: 4px solid rgb(111, 128, 27);
+    padding: 10px;
+    z-index: 3;
+    color:#442323;
+    text-align: center;
+    vertical-align: bottom;
+    text-decoration-line: overline underline;
+    text-decoration-color: #442323;
+    letter-spacing: 5px;
+    font-family: "Papyrus";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.saltNumb {
+    position: fixed;
+    top: 140px;
+    left: 350px;
+    width: 30px;
+    height: 20px;
+    padding: 10px;
+    z-index: 4;
+    color:#442323;
+    text-align: center;
+    vertical-align: Top;
+    text-decoration-line: overline underline;
+    text-decoration-color: #442323;
+    letter-spacing: 5px;
+    font-family: "Papyrus";
+}
+
+.saltSps {
+    position: fixed;
+    top: 160px;
+    left: 260px;
+    width: 30px;
+    height: 20px;
+    padding: 10px;
+    z-index: 4;
+    color:#442323;
+    text-align: center;
+    vertical-align: Top;
+    text-decoration-line: overline underline;
+    text-decoration-color: #442323;
+    letter-spacing: 5px;
+    font-family: "Papyrus";
+}
+
+.pepperNumb {
+    position: fixed;
+    top: 190px;
+    left: 350px;
+    width: 30px;
+    height: 20px;
+    padding: 10px;
+    z-index: 4;
+    color:#442323;
+    text-align: center;
+    vertical-align: Top;
+    text-decoration-line: overline underline;
+    text-decoration-color: #442323;
+    letter-spacing: 5px;
+    font-family: "Papyrus";
+}
+
+.pepperSps {
+    position: fixed;
+    top: 210px;
+    left: 260px;
+    width: 30px;
+    height: 20px;
+    padding: 10px;
+    z-index: 4;
+    color:#442323;
+    text-align: center;
+    vertical-align: Top;
+    text-decoration-line: overline underline;
+    text-decoration-color: #442323;
+    letter-spacing: 5px;
+    font-family: "Papyrus";
+}
+
+.cilantroNumb {
+    position: fixed;
+    top: 240px;
+    left: 350px;
+    width: 30px;
+    height: 20px;
+    padding: 10px;
+    z-index: 4;
+    color:#442323;
+    text-align: center;
+    vertical-align: Top;
+    text-decoration-line: overline underline;
+    text-decoration-color: #442323;
+    letter-spacing: 5px;
+    font-family: "Papyrus";
+}
+
+.cilantroSps {
+    position: fixed;
+    top: 260px;
+    left: 260px;
+    width: 30px;
+    height: 20px;
+    padding: 10px;
+    z-index: 4;
+    color:#442323;
+    text-align: center;
+    vertical-align: Top;
+    text-decoration-line: overline underline;
+    text-decoration-color: #442323;
+    letter-spacing: 5px;
+    font-family: "Papyrus";
+}
+
+.oreganoNumb {
+    position: fixed;
+    top: 290px;
+    left: 350px;
+    width: 30px;
+    height: 20px;
+    padding: 10px;
+    z-index: 4;
+    color:#442323;
+    text-align: center;
+    vertical-align: Top;
+    text-decoration-line: overline underline;
+    text-decoration-color: #442323;
+    letter-spacing: 5px;
+    font-family: "Papyrus";
+}
+
+.oreganoSps {
+    position: fixed;
+    top: 310px;
+    left: 260px;
+    width: 30px;
+    height: 20px;
+    padding: 10px;
+    z-index: 4;
+    color:#442323;
+    text-align: center;
+    vertical-align: Top;
+    text-decoration-line: overline underline;
+    text-decoration-color: #442323;
+    letter-spacing: 5px;
+    font-family: "Papyrus";
+}
+
+.peprikaNumb {
+    position: fixed;
+    top: 340px;
+    left: 350px;
+    width: 30px;
+    height: 20px;
+    padding: 10px;
+    z-index: 4;
+    color:#442323;
+    text-align: center;
+    vertical-align: Top;
+    text-decoration-line: overline underline;
+    text-decoration-color: #442323;
+    letter-spacing: 5px;
+    font-family: "Papyrus";
+}
+
+.peprikaSps {
+    position: fixed;
+    top: 360px;
+    left: 260px;
+    width: 30px;
+    height: 20px;
+    padding: 10px;
+    z-index: 4;
+    color:#442323;
+    text-align: center;
+    vertical-align: Top;
+    text-decoration-line: overline underline;
+    text-decoration-color: #442323;
+    letter-spacing: 5px;
+    font-family: "Papyrus";
+}
+
+.garlicPowderNumb {
+    position: fixed;
+    top: 390px;
+    left: 350px;
+    width: 30px;
+    height: 20px;
+    padding: 10px;
+    z-index: 4;
+    color:#442323;
+    text-align: center;
+    vertical-align: Top;
+    text-decoration-line: overline underline;
+    text-decoration-color: #442323;
+    letter-spacing: 5px;
+    font-family: "Papyrus";
+}
+
+.garlicPowderSps {
+    position: fixed;
+    top: 410px;
+    left: 260px;
+    width: 30px;
+    height: 20px;
+    padding: 10px;
+    z-index: 4;
+    color:#442323;
+    text-align: center;
+    vertical-align: Top;
+    text-decoration-line: overline underline;
+    text-decoration-color: #442323;
+    letter-spacing: 5px;
+    font-family: "Papyrus";
+}
+
+.onionPowderNumb {
+    position: fixed;
+    top: 440px;
+    left: 350px;
+    width: 30px;
+    height: 20px;
+    padding: 10px;
+    z-index: 4;
+    color:#442323;
+    text-align: center;
+    vertical-align: Top;
+    text-decoration-line: overline underline;
+    text-decoration-color: #442323;
+    letter-spacing: 5px;
+    font-family: "Papyrus";
+}
+
+.onionPowderSps {
+    position: fixed;
+    top: 460px;
+    left: 260px;
+    width: 30px;
+    height: 20px;
+    padding: 10px;
+    z-index: 4;
+    color:#442323;
+    text-align: center;
+    vertical-align: Top;
+    text-decoration-line: overline underline;
+    text-decoration-color: #442323;
+    letter-spacing: 5px;
+    font-family: "Papyrus";
+}
+
+.cuminNumb {
+    position: fixed;
+    top: 490px;
+    left: 350px;
+    width: 30px;
+    height: 20px;
+    padding: 10px;
+    z-index: 4;
+    color:#442323;
+    text-align: center;
+    vertical-align: Top;
+    text-decoration-line: overline underline;
+    text-decoration-color: #442323;
+    letter-spacing: 5px;
+    font-family: "Papyrus";
+}
+
+.cuminSps {
+    position: fixed;
+    top: 510px;
+    left: 260px;
+    width: 30px;
+    height: 20px;
+    padding: 10px;
+    z-index: 4;
+    color:#442323;
+    text-align: center;
+    vertical-align: Top;
+    text-decoration-line: overline underline;
+    text-decoration-color: #442323;
+    letter-spacing: 5px;
+    font-family: "Papyrus";
+}
+
+.cinnamonNumb {
+    position: fixed;
+    top: 540px;
+    left: 350px;
+    width: 30px;
+    height: 20px;
+    padding: 10px;
+    z-index: 4;
+    color:#442323;
+    text-align: center;
+    vertical-align: Top;
+    text-decoration-line: overline underline;
+    text-decoration-color: #442323;
+    letter-spacing: 5px;
+    font-family: "Papyrus";
+}
+
+.cinnamonSps {
+    position: fixed;
+    top: 560px;
+    left: 260px;
+    width: 30px;
+    height: 20px;
+    padding: 10px;
+    z-index: 4;
+    color:#442323;
+    text-align: center;
+    vertical-align: Top;
+    text-decoration-line: overline underline;
+    text-decoration-color: #442323;
+    letter-spacing: 5px;
+    font-family: "Papyrus";
+}
+
+
+
+
+
+
+
+
+.overallSpice {
+    position: fixed;
+    top: 720px;
+    left: 1010px;
+    width: 300px;
+    height: 20px;
+    padding: 10px;
+    z-index: 4;
+    color:#1f0f0f;
+    text-align: center;
+    vertical-align: Top;
+    text-decoration-line: overline underline;
+    text-decoration-color: #442323;
+    letter-spacing: 5px;
+    font-family: "Papyrus";
+}
+
+.overallSps {
+    position: fixed;
+    top: 220px;
+    left: 1010px;
+    width: 300px;
+    height: 20px;
+    padding: 10px;
+    z-index: 4;
+    color:#1f0f0f;
+    text-align: center;
+    vertical-align: Top;
+    text-decoration-line: overline underline;
+    text-decoration-color: #442323;
+    letter-spacing: 5px;
+    font-family: "Papyrus";
+}

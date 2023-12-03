@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Website</title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="icon" href="imageResources/logoIcon.png" type="image/x-icon">
+    <script src="script.js" defer></script>
+</head>
+<body style="background-color: rgb(68, 50, 50);">
+    <img class="websiteLogo" src="imageResources/logo.png"></img>
+    <img id="clickerIcon" class="clickerIcon" onclick="tap()" src="imageResources/clickerIcon.png"></img>
+    <img id="clickerBackground" class="clickerBackground" src="imageResources/clickerBackground.png"></img>
+    <h1 class="spiceHeader">Spices</h1>
+    <small class="signing">Made by RicoPepinillo</small>
+
+    <b id="saltButton" onclick="saltUpdate()" class="saltButton">Salt</b>
+    <b id="pepperButton" onclick="pepperUpdate()" class="pepperButton">Pepper</b>
+    <b id="cilantroButton" onclick="cilantroUpdate()" class="cilantroButton">Cilantro</b>
+    <b id="oreganoButton" onclick="oreganoUpdate()" class="oreganoButton">Oregano</b>
+    <b id="peprikaButton" onclick="peprikaUpdate()" class="peprikaButton">Peprika</b>
+    <b id="garlicPowderButton" onclick="garlicPowderUpdate()" class="garlicPowderButton">Garlic Powder</b>
+    <b id="onionPowderButton" onclick="onionPowderUpdate()" class="onionPowderButton">Onion Powder</b>
+    <b id="cuminButton" onclick="cuminUpdate()" class="cuminButton">Cumin</b>
+    <b id="cinnamonButton" onclick="cinnamonUpdate()" class="cinnamonButton">Cinnamon</b>
+
+
+
+
+
+    <div id="saltIcon" class="saltIcon"></div>
+        <p id="saltNumb" class="saltNumb">0</p>
+        <small id="saltSps" class="saltSps">0_sps</small>
+    <div id="pepperIcon" class="pepperIcon"></div>
+        <p id="pepperNumb" class="pepperNumb">0</p>
+        <small id="pepperSps" class="pepperSps">0_sps</small>
+    <div id="cilantroIcon" class="cilantroIcon"></div>
+        <p id="cilantroNumb" class="cilantroNumb">0</p>
+        <small id="cilantroSps" class="cilantroSps">0_sps</small>
+    <div id="oreganoIcon" class="oreganoIcon"></div>
+        <p id="oreganoNumb" class="oreganoNumb">0</p>
+        <small id="oreganoSps" class="oreganoSps">0_sps</small>
+    <div id="peprikaIcon" class="peprikaIcon"></div>
+        <p id="peprikaNumb" class="peprikaNumb">0</p>
+        <small id="peprikaSps" class="peprikaSps">0_sps</small>
+    <div id="garlicPowderIcon" class="garlicPowderIcon"></div>
+        <p id="garlicPowderNumb" class="garlicPowderNumb">0</p>
+        <small id="garlicPowderSps" class="garlicPowderSps">0_sps</small>
+    <div id="onionPowderIcon" class="onionPowderIcon"></div>
+        <p id="onionPowderNumb" class="onionPowderNumb">0</p>
+        <small id="onionPowderSps" class="onionPowderSps">0_sps</small>
+    <div id="cuminIcon" class="cuminIcon"></div>
+        <p id="cuminNumb" class="cuminNumb">0</p>
+        <small id="cuminSps" class="cuminSps">0_sps</small>
+    <div id="cinnamonIcon" class="cinnamonIcon"></div>
+        <p id="cinnamonNumb" class="cinnamonNumb">0</p>
+        <small id="cinnamonSps" class="cinnamonSps">0_sps</small>
+
+
+
+    <h1 id="overallSpice" class="overallSpice">0 Spice($)</h1>
+    <h1 id="overallSps" class="overallSps">0 Sps</h1>
+
+
+    <div class="topBoxMenu"></div>
+    <div class="bottomBoxMenu"></div>
+    <div class="leftBoxMenu"></div>
+    <div id=""></div>
+</body>
+</html>
